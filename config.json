@@ -1,0 +1,78 @@
+{
+  "channel_defaults": {},
+  "server": {
+    "debug": true,
+    "http_debug": false,
+    "http_demo": true,
+    "http_dir": "new-web",
+    "http_login": "demo",
+    "http_password": "demo",
+    "http_port": ":8083",
+    "https": false,
+    "https_auto_tls": false,
+    "https_auto_tls_name": "",
+    "https_cert": "server.crt",
+    "https_key": "server.key",
+    "https_port": ":443",
+    "ice_credential": "",
+    "ice_servers": [
+      "stun:stun.l.google.com:19302"
+    ],
+    "ice_username": "",
+    "log_level": "debug",
+    "rtsp_port": ":5541",
+    "token": {
+      "backend": "http://127.0.0.1/test.php",
+      "enable": false
+    },
+    "webrtc_port_max": 0,
+    "webrtc_port_min": 0
+  },
+  "streams": {
+    "27aec28e-6181-4753-9acd-0456a75f028a": {
+      "channels": {
+        "0": {
+          "audio": false,
+          "url": "rtsp://alpha:alpha0080!@58.227.158.127:8890/profile4/media.smp"
+        }
+      },
+      "name": "DIP-Alpha-1"
+    },
+    "27aec28e-6181-4753-9acd-0456a75f0289": {
+      "channels": {
+        "0": {
+          "audio": false,
+          "url": "rtsp://admin:admin@39.116.16.35:11111/0"
+        }
+      },
+      "name": "DIP-Alpha-1"
+    },
+    "27aec28e-6181-4753-9acd-0456a75f028b": {
+      "channels": {
+        "0": {
+          "audio": false,
+          "url": "rtsp://admin:admin@39.116.16.35:22222/0"
+        }
+      },
+      "name": "DIP-Alpha-2"
+    },
+    "27aec28e-6181-4753-9acd-0456a75f028c": {
+      "channels": {
+        "0": {
+          "audio": false,
+          "url": "rtsp://admin:admin@39.116.16.35:33333/0"
+        }
+      },
+      "name": "DIP-Alpha-3"
+    },
+    "27aec28e-6181-4753-9acd-0456a75f028d": {
+      "channels": {
+        "0": {
+          "audio": false,
+          "url": "rtsp://admin:admin@39.116.16.35:44444/0"
+        }
+      },
+      "name": "DIP-Alpha-4"
+    }
+  }
+}
